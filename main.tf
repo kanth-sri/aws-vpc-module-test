@@ -1,5 +1,5 @@
 module "vpc" {
-    source = "../aws-vpc-tf-module"
+    source = "git::https://github.com/kanth-sri/aws-vpc-tf-module.git?ref=main"
     vpc_cidr = var.vpc_cidr
     project = var.project
     environmnet = var.environmnet
