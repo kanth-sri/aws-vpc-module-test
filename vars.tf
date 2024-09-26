@@ -4,7 +4,7 @@ variable "vpc_cidr" {
 variable "project" {
   default = "expense"
 }
-variable "environmnet" {
+variable "environment" {
   default = "dev"
 }
 variable "common_tags" {
